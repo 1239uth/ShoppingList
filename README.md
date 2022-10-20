@@ -31,6 +31,7 @@ and view your subtotal and total including tax.
 - Heroku (backend)
 - Netlify (frontend)
 - Docker
+- GitHub Actions (CI/CD)
 
 <br />
 Created by Uthman Mohamed and Nathan Raymant
