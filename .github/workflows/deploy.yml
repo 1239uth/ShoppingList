@@ -21,7 +21,10 @@ jobs:
           heroku_app_name: "emporium-shopping"
           heroku_email: "uthman.mohamed@mail.utoronto.ca"
           justlogin: true
-      - run: |
+
+      - name: Run heroku container
+        run: |
+          cd backend && \
           heroku container:login && \
           heroku container:push web --app emporium-shopping && \
           heroku container:release web --app emporium-shopping
