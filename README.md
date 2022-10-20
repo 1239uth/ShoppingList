@@ -1,12 +1,15 @@
 # Emporium Shopping
 
-### Website link: [https://emporium-shopping.netlify.app/](https://emporium-shopping.netlify.app/)
+### Website link
+[https://emporium-shopping.netlify.app/](https://emporium-shopping.netlify.app/)
 
 ## Description
 
 Emporium Shopping is a website that lets you add items to a cart from an existing database of items
 and view your subtotal and total including tax.
 
+### API Docs
+https://emporium-shopping.herokuapp.com/api/docs.
 
 ## Tech Stack
 
@@ -17,7 +20,7 @@ and view your subtotal and total including tax.
   - Hibernate
   - Spring Web
 - JUnit
-- Mockito
+  - Mockito
 
 #### Frontend
 - React
@@ -33,5 +36,12 @@ and view your subtotal and total including tax.
 - Docker
 - GitHub Actions (CI/CD)
 
+## Database Schema Diagram
+
+<img alt="Database Schema Diagram" height="400" src="images/DatabaseDiagram.png"/>
+
+
 <br />
+<br />
+
 Created by Uthman Mohamed and Nathan Raymant
